@@ -1,0 +1,22 @@
+ru:
+  activerecord:
+   attributes:
+     article:
+       title: "Название"
+       body: "Текст"
+       image: "Изображение"
+  forms:
+   buttons:
+     edit: "Редактировать"
+     submit: "Отправить"
+  menu:
+    new_article: "Добавить статью"
+    languages:
+      lang: "Язык"
+      ru: "Русский"
+      en: "Английский"
+  pages:
+    articles:
+      index: "Список статей"
+      edit: "Редактировать статью"
+      new: "Добавить статью"

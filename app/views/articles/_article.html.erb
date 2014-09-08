@@ -1,0 +1,10 @@
+<h2><%= article.title %></h2>
+
+<p><%= article.body %></p>
+
+<% if article.image.present? %>
+  <%= link_to t('activerecord.attributes.article.image'), article.image.url, target: '_blank' %>
+<% end %>
+
+<p><%= link_to t('forms.buttons.edit'), edit_article_path(article), class: 'btn btn-default' %></p>
+<hr/>

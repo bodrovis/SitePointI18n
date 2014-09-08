@@ -1,0 +1,22 @@
+en:
+  activerecord:
+    attributes:
+      article:
+        title: "Title"
+        body: "Body"
+        image: "Image"
+  forms:
+    buttons:
+      edit: "Edit"
+      submit: "Submit"
+  menu:
+    new_article: "Add an article"
+    languages:
+      lang: "Language"
+      ru: "Russian"
+      en: "English"
+  pages:
+    articles:
+      index: "List of articles"
+      edit: "Add article"
+      new: "New article"
