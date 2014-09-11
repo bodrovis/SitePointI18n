@@ -9,10 +9,5 @@
     <%= f.text_area :body, rows: 3, class: 'form-control', required: true %>
   </div>
 
-  <div class="form-group">
-    <%= f.label :image %>
-    <%= f.file_field :image, class: 'form-control' %>
-  </div>
-
   <%= f.submit t('forms.buttons.submit'), class: 'btn btn-primary btn-lg' %>
 <% end %>

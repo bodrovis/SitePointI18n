@@ -20,7 +20,6 @@ ActiveRecord::Schema.define(version: 20140908141600) do
     t.datetime "updated_at"
     t.string   "title"
     t.text     "body"
-    t.string   "image_uid"
   end
 
   add_index "article_translations", ["article_id"], name: "index_article_translations_on_article_id"
@@ -31,7 +30,6 @@ ActiveRecord::Schema.define(version: 20140908141600) do
     t.string   "body"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "image_uid"
   end
 
 end

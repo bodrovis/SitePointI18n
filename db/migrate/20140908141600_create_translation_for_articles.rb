@@ -2,8 +2,7 @@ class CreateTranslationForArticles < ActiveRecord::Migration
   def up
     Article.create_translation_table!({
                                           title: :string,
-                                          body: :text,
-                                          image_uid: :string}, {migrate_data: true})
+                                          body: :text}, {migrate_data: true})
   end
 
   def down

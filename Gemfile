@@ -10,9 +10,8 @@ gem 'bootstrap-sass'
 
 gem 'geocoder'
 
-gem 'dragonfly'
-gem 'dragonfly-s3_data_store'
-gem 'rack-cache', :require => 'rack/cache'
+#gem 'russian'
+gem 'rails-i18n', '~> 4.0.0'
 
 gem 'globalize', '~> 4.0.2'
 

@@ -1,10 +1,8 @@
 <h2><%= article.title %></h2>
 
-<p><%= article.body %></p>
+<small class="text-muted"><%= l(article.created_at, format: '%-d %B %Y %H:%M:%S') %></small>
 
-<% if article.image.present? %>
-  <%= link_to t('activerecord.attributes.article.image'), article.image.url, target: '_blank' %>
-<% end %>
+<p><%= article.body %></p>
 
 <p><%= link_to t('forms.buttons.edit'), edit_article_path(article), class: 'btn btn-default' %></p>
 <hr/>

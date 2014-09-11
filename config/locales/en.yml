@@ -17,6 +17,9 @@ en:
       en: "English"
   pages:
     articles:
+      count:
+        one: "%{count} article"
+        other: "%{count} articles"
       index: "List of articles"
       edit: "Add article"
       new: "New article"

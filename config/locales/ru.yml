@@ -17,6 +17,12 @@ ru:
       en: "Английский"
   pages:
     articles:
+      count:
+        zero: "%{count} статей"
+        one: "%{count} статья"
+        few: "%{count} статьи"
+        many: "%{count} статей"
+        other: "%{count} статьи"
       index: "Список статей"
       edit: "Редактировать статью"
       new: "Добавить статью"
