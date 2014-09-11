@@ -2,4 +2,4 @@ Source code for the [internationalization with I18n and Globalize in Rails]() ar
 SitePoint,
 created by Ilya Bodrov ([radiant-wind.com](http://radiant-wind.com)).
 
-[Working demo]().
+[Working demo](http://sitepoint-i18n.herokuapp.com/).
