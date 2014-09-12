@@ -4,8 +4,9 @@ en:
       article:
         title: "Title"
         body: "Body"
-        image: "Image"
   forms:
+    messages:
+      success: "Operation succeeded!"
     buttons:
       edit: "Edit"
       submit: "Submit"
@@ -15,11 +16,13 @@ en:
       lang: "Language"
       ru: "Russian"
       en: "English"
-  pages:
-    articles:
+  articles:
+    index:
       count:
         one: "%{count} article"
         other: "%{count} articles"
-      index: "List of articles"
-      edit: "Add article"
-      new: "New article"
+      title: "List of articles"
+    edit:
+      title: "Add article"
+    new:
+      title: "New article"

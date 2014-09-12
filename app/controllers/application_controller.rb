@@ -3,10 +3,10 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
-  before_filter :set_locale
+  before_action :set_locale
 
   def set_locale
-    if cookies[:educator_locale]
+    if cookies[:educator_locale] && I18n.available_locales.include?(cookies[:educator_locale].to_sym)
       l = cookies[:educator_locale].to_sym
     else
       begin
@@ -14,9 +14,9 @@ class ApplicationController < ActionController::Base
         if country_code
           country_code = country_code.downcase.to_sym
           # use russian for CIS countries, english for others
-          [:ru, :kz, :ua, :by, :tj, :uz, :md].include?(country_code) ? l = :ru : l = :en
+          [:ru, :kz, :ua, :by, :tj, :uz, :md, :az, :am, :kg, :tm].include?(country_code) ? l = :ru : l = :en
         else
-          l = I18n.default_locale # use default locale if cannot retrive this info
+          l = I18n.default_locale # use default locale if cannot retrieve this info
         end
       rescue
         l = I18n.default_locale

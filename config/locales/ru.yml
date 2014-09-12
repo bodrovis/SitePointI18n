@@ -4,9 +4,10 @@ ru:
      article:
        title: "Название"
        body: "Текст"
-       image: "Изображение"
   forms:
-   buttons:
+    messages:
+      success: "Операция была успешно выполнена!"
+    buttons:
      edit: "Редактировать"
      submit: "Отправить"
   menu:
@@ -15,14 +16,16 @@ ru:
       lang: "Язык"
       ru: "Русский"
       en: "Английский"
-  pages:
-    articles:
+  articles:
+    index:
       count:
         zero: "%{count} статей"
         one: "%{count} статья"
         few: "%{count} статьи"
         many: "%{count} статей"
         other: "%{count} статьи"
-      index: "Список статей"
-      edit: "Редактировать статью"
-      new: "Добавить статью"
+      title: "Список статей"
+    edit:
+      title: "Редактировать статью"
+    new:
+      title: "Добавить статью"

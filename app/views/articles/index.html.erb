@@ -1,4 +1,4 @@
-<% content_for(:page_header) {t('pages.articles.index')} %>
+<% content_for(:page_header) {t('.title')} %>
 
-<small><%= t('pages.articles.count', :count => @articles.length) %></small>
+<small><%= t('.count', :count => @articles.length) %></small>
 <%= render @articles %>

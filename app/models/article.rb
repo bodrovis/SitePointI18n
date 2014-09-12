@@ -10,5 +10,5 @@
 #
 
 class Article < ActiveRecord::Base
-  translates :title, :body, :image_uid, fallbacks_for_empty_translations: true
+  translates :title, :body
 end
