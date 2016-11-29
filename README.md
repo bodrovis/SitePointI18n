@@ -1,4 +1,4 @@
-Source code for the [internationalization with I18n and Globalize in Rails]() article on
+Source code for the [Go Global with Rails and I18n](http://www.sitepoint.com/go-global-rails-i18n/) article on
 SitePoint,
 created by Ilya Bodrov ([bodrovis.tech](http://bodrovis.tech)).
 
